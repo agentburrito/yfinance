@@ -26,4 +26,10 @@ STEP | TEST STEP/INPUT   |  EXPECTED RESULT  |  ACTUAL RESULTS  | PASS/FAIL
      | and get full      | data              | data             |
      | download data     |                   |                  |
 ----------------------------------------------------------------------------
+AFTER FIX
+----------------------------------------------------------------------------
+3    | Input BRK.A symbol| Historical stock  | Historical stock | Pass
+     | and get full      | data              | data             |
+     | download data     |                   |                  |
+----------------------------------------------------------------------------
 ```

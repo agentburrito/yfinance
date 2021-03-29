@@ -60,3 +60,20 @@ I created a dataset containing over 6000 NYSE symbols to stress test the downloa
 App should run under the following environment:
               python>= 2.7, 3.4+ with multitasking and yfinancemodule installed
 ```
+
+
+## 7 Suggested Fixes
+
+```
+There are no pull requests that address the hanging issue and I cannot fix it quickly as I am not that good at thread programming and that is beyond the scope of this assignment.
+
+There are no pull requests that address the empty rows when downloading large amounts of data. Again, that would also involve some sort of thread programming as single threaded downloads take too long and thus are not a reasonable approach.
+
+There is a pull request to address the class issue and I will implement it in a pull request.
+```
+
+## 8 Fix Debrief
+
+```
+Class tests now pass after fix was implemented
+```

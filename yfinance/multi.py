@@ -67,6 +67,7 @@ def download(tickers, start=None, end=None, actions=False, threads=True,
     """
 
     # create ticker list
+    tickers = [tickers.replace(".", "-") for ticker in tickers]
     tickers = tickers if isinstance(
         tickers, (list, set, tuple)) else tickers.replace(',', ' ').split()
 
