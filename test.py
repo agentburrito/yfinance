@@ -177,8 +177,8 @@ def test_download_hang(symbols):
 test_class("BRK-A")
 test_class("BRK.A")
 
-# test_download(symbols)
+test_download(symbols)
 
-# test_download_hang(symbols[1:1000])
+test_download_hang(symbols[1:1000])
 
 
