@@ -67,6 +67,8 @@ def download(tickers, start=None, end=None, actions=False, threads=True,
     """
 
     # create ticker list
+    # Replace dots with dashes so class stocks work
+    tickers = [tickers.replace(".", "-") for ticker in tickers]
     tickers = tickers if isinstance(
         tickers, (list, set, tuple)) else tickers.replace(',', ' ').split()
 
